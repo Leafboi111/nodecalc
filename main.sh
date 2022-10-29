@@ -55,7 +55,7 @@ function quad {
         break
     fi
 
-    tput setaf 13
+    tput setaf 226
     echo -n "The equation is $A"
     echo -n "x^2 + $B"
     echo "x + $C"
