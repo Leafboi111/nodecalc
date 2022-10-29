@@ -108,7 +108,7 @@ case $sq in
 		break;;
 	[qQ] ) quad
 		exit;;
-	* ) break
+	* ) sleep 1; break
 esac
 
 done
