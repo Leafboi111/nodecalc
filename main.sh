@@ -101,7 +101,7 @@ function quad {
 while true;
 do
 
-read -p "Standard or Quadratic? (s/q) " sq
+read -p "$(tput setaf 213)Standard or Quadratic? (s/q) " sq
 
 case $sq in
 	[sS] ) std
