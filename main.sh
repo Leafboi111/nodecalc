@@ -104,11 +104,11 @@ do
 read -p "$(tput setaf 213)Standard or Quadratic? (s/q) " sq
 
 case $sq in
-	[sS] ) std
-		break;;
-	[qQ] ) quad
-		exit;;
-	* ) sleep 1; break
+	[sS] ) std;;
+		#break;;
+	[qQ] ) quad;;
+		#break;;
+	* ) break
 esac
 
 done
