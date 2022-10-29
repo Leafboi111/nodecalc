@@ -40,7 +40,7 @@ function quad {
   while true
   do
 
-    tput setaf 13
+    tput setaf 226
     read -p "a=" A;
     read -p "b=" B;
     read -p "c=" C;
