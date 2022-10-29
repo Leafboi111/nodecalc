@@ -52,7 +52,7 @@ function quad {
 
     if [ $A == 0 ]; then
         echo "$(tput setaf 7)Not a quadratic equation.";
-        exit 0;
+        break
     fi
 
     tput setaf 13
@@ -65,12 +65,12 @@ function quad {
     if [ $D == 0 ]; then
         echo -n "x = "
         echo -e "scale=3\n-0.5*($B)/($A)" | bc
-        exit 0;
+        break
     fi
 
     if [ $D -lt 0 ]; then
         echo "Imaginary Solution.";
-        exit 0
+        break
     fi
 
     echo $D
