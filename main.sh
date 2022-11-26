@@ -18,6 +18,8 @@ clear
 function std {
 
   set a b operation;
+  tput setaf 7
+  echo "Welcome to nodecalc, a simple calculator."; echo
   tput setaf 13
   echo -e "Select operation type: + - * / ^ or press enter to exit";
   read operation;
