@@ -13,8 +13,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-clear
-
 function std {
 
   set a b operation;
@@ -101,6 +99,7 @@ function quad {
 while true;
 do
 
+clear
 tput setaf 7
 echo "Welcome to nodecalc, a simple calculator."; echo
 
