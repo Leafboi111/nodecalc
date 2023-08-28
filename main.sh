@@ -113,4 +113,6 @@ case $sq in
 	* ) break
 esac
 
+read -p "$(tput setaf 213)Press enter to quit: " petq
+
 done
